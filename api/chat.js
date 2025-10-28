@@ -32,7 +32,7 @@ export default async function handler(req, res) {
           content: prompt,
         },
       ],
-      model: 'llama-3.1-8b-instant',
+      model: 'openai/gpt-oss-20b',
     });
 
     // 3. Obtenemos la respuesta
