@@ -24,7 +24,7 @@ export default async function handler(req, res) {
     }
 
     // 2. Inicializamos el modelo de IA (usamos "flash" que es el más rápido)
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-lite" });
 
     // 3. Enviamos el prompt a la IA y esperamos el resultado
     const result = await model.generateContent(prompt);
