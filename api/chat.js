@@ -32,7 +32,7 @@ export default async function handler(req, res) {
           content: prompt,
         },
       ],
-      model: 'llama3-8b-8192',
+      model: 'llama-3.1-8b-instant',
     });
 
     // 3. Obtenemos la respuesta
